@@ -45,12 +45,13 @@ counter = 1
 
 for i in range(MAX_TRY):
     if (i == 0):
-        password = input("Please supply password:\t")
+        password_string = input("Please supply password:\t")
     else:
         print('Supplied password is not enough strong...try again')
         password_string = input("Please supply password:\t") 
 
-    test_result = password_check(password)
+    test_result = password_check(password_string)
     if test_result:
         print('Password test successful')
+        break
 
