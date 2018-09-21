@@ -8,4 +8,3 @@ def factorial(num):
 print   ("Enter a integer....")
 number = int(input())
 print (factorial(number))
-print ("Test")
