@@ -1,0 +1,20 @@
+PING google.com (172.217.0.46): 56 data bytes
+64 bytes from 172.217.0.46: icmp_seq=0 ttl=54 time=12.670 ms
+64 bytes from 172.217.0.46: icmp_seq=1 ttl=54 time=10.390 ms
+c64 bytes from 172.217.0.46: icmp_seq=2 ttl=54 time=13.465 ms
+64 bytes from 172.217.0.46: icmp_seq=3 ttl=54 time=10.918 ms
+64 bytes from 172.217.0.46: icmp_seq=4 ttl=54 time=11.440 ms
+^C
+--- google.com ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 10.390/11.777/13.465/1.133 ms
+nilvarshney@LM-SFA-11009040:~/github_nilesh/python_datastructure$ ping facebook.com
+PING facebook.com (157.240.22.35): 56 data bytes
+64 bytes from 157.240.22.35: icmp_seq=0 ttl=54 time=11.964 ms
+64 bytes from 157.240.22.35: icmp_seq=1 ttl=54 time=10.911 ms
+64 bytes from 157.240.22.35: icmp_seq=2 ttl=54 time=11.382 ms
+64 bytes from 157.240.22.35: icmp_seq=3 ttl=54 time=12.075 ms
+64 bytes from 157.240.22.35: icmp_seq=4 ttl=54 time=12.432 ms
+64 bytes from 157.240.22.35: icmp_seq=5 ttl=54 time=12.861 ms
+64 bytes from 157.240.22.35: icmp_seq=6 ttl=54 time=11.641 ms
+64 bytes from 157.240.22.35: icmp_seq=7 ttl=54 time=11.165 ms
