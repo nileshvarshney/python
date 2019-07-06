@@ -2,11 +2,12 @@ from stack_sample import Stack
 import logging
 
 
-sl = ( 
-   "{(foo)(bar)}[hello](((this)is)a)test", 
-   "{(foo)(bar)}[hello](((this)is)atest", 
-   "{(foo)(bar)}[hello](((this)is)a)test))" 
-) 
+# sl = ( 
+#    "{(foo)(bar)}[hello](((this)is)a)test", 
+#    "{(foo)(bar)}[hello](((this)is)atest", 
+#    "{(foo)(bar)}[hello](((this)is)a)test))" 
+# ) 
+sl = "{[]}"
 
 def check_match_brackets(stmt):
     stack = Stack()
