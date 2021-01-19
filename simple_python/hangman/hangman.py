@@ -48,6 +48,3 @@ while not END_OF_GAME:
     if "_" not in display:
         END_OF_GAME = True
         print(f"You Win!!")
-
-
-
